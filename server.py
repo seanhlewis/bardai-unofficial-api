@@ -16,7 +16,7 @@ BROWSER = PLAY.chromium.launch(
 PAGE = BROWSER.new_page()
 
 def get_input_box():
-    """Get the textarea via class of `mat-mdc-input-element cdk-textarea-autosize ng-tns-c1536372641-1 ng-untouched ng-pristine ng-valid gmat-mdc-input mat-mdc-form-field-textarea-control mat-mdc-form-field-input-control mdc-text-field__input cdk-text-field-autofill-monitored`"""
+    """Getting the input box"""
     return PAGE.query_selector("textarea[class*='mat-mdc-input-element']")
 
 def is_loading_response() -> bool:
