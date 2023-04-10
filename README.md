@@ -25,6 +25,8 @@ python server.py
 
 * The server runs at port `5001`. If you want to change, you can change it in server.py
 
+# Login
+* Login to your Google account with Bard access once the browser starts. Once you have logged in, the API will be ready to query.
 
 # API Documentation
 
